@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ABC Interiors | Premium Home Interiors in Tirupati</title>
+  <meta name="description" content="ABC Interiors creates premium home interiors, modular kitchens, living rooms and bedrooms in Tirupati. Book a free consultation.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="nav">
+  <a class="brand" href="#">ABC <span>INTERIORS</span></a>
+  <a class="nav-cta" href="#enquiry">Get Free Consultation</a>
+</header>
+
+<main>
+<section class="hero">
+  <div class="hero-copy">
+    <p class="eyebrow">TIRUPATI • INTERIOR DESIGN</p>
+    <h1>Transform Your Home Into a Space You'll Love.</h1>
+    <p>Thoughtful, functional interiors designed around your lifestyle, taste and budget.</p>
+    <div class="actions">
+      <a class="button primary" href="#enquiry">Get FREE Consultation</a>
+      <a class="button ghost" href="#services">Explore Services</a>
+    </div>
+    <div class="trust"><span>✓ Personalized design</span><span>✓ Budget-conscious planning</span><span>✓ End-to-end support</span></div>
+  </div>
+  <div class="hero-card">
+    <div class="room"></div>
+    <div class="offer"><strong>FREE</strong><span>Home Interior Consultation</span></div>
+  </div>
+</section>
+
+<section id="services" class="section">
+  <p class="eyebrow">WHAT WE DO</p>
+  <h2>Complete interiors, designed as one story.</h2>
+  <div class="grid cards">
+    <article><h3>Complete Home Interiors</h3><p>A coordinated design approach for every room.</p></article>
+    <article><h3>Modular Kitchens</h3><p>Practical layouts, storage and finishes for everyday cooking.</p></article>
+    <article><h3>Living Room Interiors</h3><p>Welcoming spaces with balanced furniture, lighting and detail.</p></article>
+    <article><h3>Bedroom Interiors</h3><p>Calm, functional bedrooms tailored to your routine.</p></article>
+    <article><h3>Office Interiors</h3><p>Professional spaces built for focus, comfort and identity.</p></article>
+    <article><h3>Home Renovation</h3><p>Refresh existing spaces without losing what already works.</p></article>
+  </div>
+</section>
+
+<section class="section dark">
+  <p class="eyebrow">WHY ABC INTERIORS</p>
+  <h2>A better design journey from idea to execution.</h2>
+  <div class="grid benefits">
+    <div><b>01</b><h3>Understand</h3><p>We start with your lifestyle, needs and priorities.</p></div>
+    <div><b>02</b><h3>Design</h3><p>We turn requirements into a cohesive visual direction.</p></div>
+    <div><b>03</b><h3>Plan</h3><p>Budget and practical decisions are considered early.</p></div>
+    <div><b>04</b><h3>Transform</h3><p>Move toward a finished space with clear next steps.</p></div>
+  </div>
+</section>
+
+<section class="section portfolio">
+  <p class="eyebrow">PORTFOLIO DIRECTION</p>
+  <h2>Spaces that feel personal, not generic.</h2>
+  <div class="portfolio-grid">
+    <div class="tile t1">Modern Kitchen</div>
+    <div class="tile t2">Warm Living Room</div>
+    <div class="tile t3">Contemporary Bedroom</div>
+  </div>
+</section>
+
+<section class="section testimonial">
+  <p class="eyebrow">CLIENT EXPERIENCE</p>
+  <blockquote>“The design process felt clear from the first consultation. We finally had a plan that matched how our family actually lives.”</blockquote>
+  <p>— Sample client testimonial for project demonstration</p>
+</section>
+
+<section class="section offer">
+  <div><p class="eyebrow">LIMITED-FRICTION FIRST STEP</p><h2>Start with a FREE Home Interior Consultation.</h2><p>Tell us about your home and what you want to change. We'll use the enquiry to understand your project before the consultation.</p></div>
+  <a class="button primary" href="#enquiry">Book My Free Consultation</a>
+</section>
+
+<section id="enquiry" class="section form-section">
+  <p class="eyebrow">PROJECT ENQUIRY</p>
+  <h2>Tell us about your project.</h2>
+  <form id="leadForm">
+    <input name="name" placeholder="Full name" required>
+    <input name="phone" placeholder="Mobile number" required>
+    <input type="email" name="email" placeholder="Email address" required>
+    <input name="location" placeholder="Location / area" required>
+    <select name="property_type" required><option value="">Property type</option><option>1 BHK</option><option>2 BHK</option><option>3 BHK</option><option>4+ BHK</option><option>Villa</option><option>Office</option><option>Other</option></select>
+    <select name="budget" required><option value="">Budget range</option><option>Under ₹5 lakh</option><option>₹5–10 lakh</option><option>₹10–15 lakh</option><option>₹15–25 lakh</option><option>₹25 lakh+</option></select>
+    <input name="requirement" placeholder="Main requirement" required>
+    <textarea name="message" placeholder="Tell us a little more"></textarea>
+    <input type="hidden" name="source" value="website">
+    <button class="button primary" type="submit">Send Enquiry</button>
+    <p id="formStatus" class="status"></p>
+  </form>
+</section>
+</main>
+
+<div id="popup" class="popup hidden">
+  <div class="popup-card">
+    <button id="closePopup" class="close">×</button>
+    <p class="eyebrow">FREE RESOURCE</p>
+    <h2>Get Your FREE Interior Design Guide</h2>
+    <p>Leave your details and we'll send the guide and consultation information.</p>
+    <form id="popupForm">
+      <input name="name" placeholder="Name" required>
+      <input name="email" type="email" placeholder="Email" required>
+      <input name="phone" placeholder="Phone" required>
+      <button class="button primary" type="submit">Send Me the Guide</button>
+    </form>
+    <p id="popupStatus" class="status"></p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
