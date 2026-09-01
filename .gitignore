@@ -1,0 +1,15 @@
+# Vercel Build Artifacts
+.vercel
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
